@@ -20,7 +20,8 @@ while not acertou:
             print('Chutou Baixo')
         else:
             acertou = True
-            # Isso que usei é uma FString, uma boa e dinâmica formatação de strings
+            # Isso que usei é uma FString, uma boa e dinâmica formatação de strings onde você pode colocar 
+            # uma string dentro de chaves e elas serão substituídas pelo valor da variável
             print(f'Parabéns, você acertou! O número secreto era {valor_aleatorio}.')
     except ValueError:
         # Captura inputs que não são números inteiros
